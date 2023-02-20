@@ -44,5 +44,10 @@
 			<version>3.0.0</version>
 		</dependency>
 
+		<dependency>
+			<groupId>Demo</groupId>
+			<artifactId>Demo</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 </project>

@@ -42,9 +42,9 @@ public class LoginTest extends DriverIntialization {
 
 			Thread.sleep(2500);
 			String actualurl = driver.getCurrentUrl();
-			System.out.println(actualurl);
-
-			System.out.println(expec);
+//			System.out.println(actualurl);
+//
+//			System.out.println(expec);
 
 			sa.assertEquals(expec, actualurl);
 

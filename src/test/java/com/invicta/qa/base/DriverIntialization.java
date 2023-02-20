@@ -20,7 +20,7 @@ public class DriverIntialization {
 	public static String browser = "chrome";
 	public static WebDriver driver;
 	public static String URL = "http://qa-automation-release.s3-website-us-east-1.amazonaws.com/#/login";
-
+	
 	public static ExtentReports extent;
 	public static ExtentHtmlReporter htmlreporter;
 	public static ExtentTest testCase;
@@ -50,13 +50,13 @@ public class DriverIntialization {
 	public void closeChrome() {
 		
 		extent.flush();
-		 driver.close();
+		 //driver.close();
 	}
 
 	public static void ExtentReport() throws IOException {
 		extent = new ExtentReports();
-		htmlreporter = new ExtentHtmlReporter(System.getProperty("user.dir")
-				+ "C:\\QDMS\\QDMS-AUTOMATION\\src\\test\\resources\\Reports\\extentreport.html");
+		htmlreporter = new ExtentHtmlReporter("C:\\Automation_Workspace\\QDMS-AUTOMATION\\src\\test\\java\\com\\invicta\\qa\\report\\extentreport.html");
+				
 
 		extent.attachReporter(htmlreporter);
 	}
