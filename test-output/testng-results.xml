@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-13T09:10:28Z" name="Suite" finished-at="2023-02-13T09:10:34Z" duration-ms="6409">
+  <suite started-at="2023-02-20T09:03:47 IST" name="Default suite" finished-at="2023-02-20T09:04:44 IST" duration-ms="56515">
     <groups>
     </groups>
-    <test started-at="2023-02-13T09:10:28Z" name="Test" finished-at="2023-02-13T09:10:34Z" duration-ms="6409">
-      <class name="com.invicta.qa.testcases.login.LoginTest">
-        <test-method is-config="true" signature="main()[pri:0, instance:com.invicta.qa.testcases.login.LoginTest@1b7cae6f]" started-at="2023-02-13T09:10:19Z" name="main" finished-at="2023-02-13T09:10:28Z" duration-ms="8774" status="PASS">
+    <test started-at="2023-02-20T09:03:47 IST" name="Default test" finished-at="2023-02-20T09:04:44 IST" duration-ms="56515">
+      <class name="com.invicta.qa.testcases.sbu.TestCase_AddSBU">
+        <test-method is-config="true" signature="main()[pri:0, instance:com.invicta.qa.testcases.sbu.TestCase_AddSBU@3232a28a]" started-at="2023-02-20T09:03:33 IST" name="main" finished-at="2023-02-20T09:03:47 IST" duration-ms="14039" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method signature="Login()[pri:0, instance:com.invicta.qa.testcases.login.LoginTest@1b7cae6f]" started-at="2023-02-13T09:10:28Z" name="Login" finished-at="2023-02-13T09:10:34Z" duration-ms="6347" status="PASS">
+        <test-method signature="FinalTest()[pri:0, instance:com.invicta.qa.testcases.sbu.TestCase_AddSBU@3232a28a]" started-at="2023-02-20T09:03:47 IST" name="FinalTest" finished-at="2023-02-20T09:04:44 IST" duration-ms="56473" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method is-config="true" signature="closeChrome()[pri:0, instance:com.invicta.qa.testcases.login.LoginTest@1b7cae6f]" started-at="2023-02-13T09:10:34Z" name="closeChrome" finished-at="2023-02-13T09:10:35Z" duration-ms="673" status="PASS">
+        </test-method> <!-- FinalTest -->
+        <test-method is-config="true" signature="closeChrome()[pri:0, instance:com.invicta.qa.testcases.sbu.TestCase_AddSBU@3232a28a]" started-at="2023-02-20T09:04:44 IST" name="closeChrome" finished-at="2023-02-20T09:04:44 IST" duration-ms="434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeChrome -->
-      </class> <!-- com.invicta.qa.testcases.login.LoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.invicta.qa.testcases.sbu.TestCase_AddSBU -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

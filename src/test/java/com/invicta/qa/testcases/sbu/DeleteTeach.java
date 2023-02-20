@@ -1,3 +1,5 @@
+
+
 package com.invicta.qa.testcases.sbu;
 
 import com.invicta.qa.base.DriverIntialization;
@@ -17,7 +19,7 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
-public class DeleteSbuFunTest extends DriverIntialization {
+public class DeleteTeach extends DriverIntialization {
 
 //// =======================================================================================
 	static String xpath_getRowFirstPart = "//tbody/tr[";
@@ -194,7 +196,7 @@ public class DeleteSbuFunTest extends DriverIntialization {
 
 //// 01. Test Click-able on delete button
 ////-----------------------------------------------------------------------------------------------
-	@Test(priority = 0)
+//	@Test(priority = 0)
 	public static void DeleteSbuClickable() throws InterruptedException {
 		try {
 			driver.findElement(By.xpath(xpath_firstDeleteButton)).click();
@@ -211,7 +213,7 @@ public class DeleteSbuFunTest extends DriverIntialization {
 
 ////02. Test Cancel button of delete 
 ////-----------------------------------------------------------------------------------------------
-	@Test(priority = 1)
+//	@Test(priority = 1)
 	public static void DeleteSbuCancelButtonClick() throws InterruptedException {
 		try {
 			driver.findElement(By.xpath(xpath_firstDeleteButton)).click();
@@ -228,7 +230,7 @@ public class DeleteSbuFunTest extends DriverIntialization {
 
 ////03. Test Cancel button of delete outside
 ////-----------------------------------------------------------------------------------------------
-	@Test(priority = 2)
+//	@Test(priority = 2)
 	public static void DeleteSbuCancelButtonOutside() throws InterruptedException {
 		try {
 			driver.findElement(By.xpath(xpath_firstDeleteButton)).click();
@@ -245,7 +247,7 @@ public class DeleteSbuFunTest extends DriverIntialization {
 
 //// 04. Click on non linked element - OK button
 //// -----------------------------------------------------------------------------------------------
-	@Test(priority = 3)
+//	@Test(priority = 3)
 	public static void NonLinkedSbuDelete() throws InterruptedException {
 
 		String delSbuName = "DF DF G";
@@ -292,7 +294,7 @@ public class DeleteSbuFunTest extends DriverIntialization {
 
 //// 05. Click on linked element (Plant) - OK button
 //// -------------------------------------------------------------------------------------------------
-	@Test(priority = 4)
+//	@Test(priority = 4)
 	public static void LinkedSbuDelete() throws InterruptedException {
 
 		String delSbuName = "INNOVATION";
@@ -340,7 +342,7 @@ public class DeleteSbuFunTest extends DriverIntialization {
 
 ////05. Click on linked element (Material) - OK button
 ////-------------------------------------------------------------------------------------------------
-	@Test(priority = 4)
+//	@Test(priority = 4)
 	public static void LinkedSbuDelete02() throws InterruptedException {
 
 		String delSbuName = "INNOVATION";
@@ -385,5 +387,12 @@ public class DeleteSbuFunTest extends DriverIntialization {
 		}
 
 	}
+	
+	@Test
+	public static void test() throws InterruptedException {
+		DeleteSbuByName("INNOVATION");
+//		System.out.println(check);
+	}
 
 }
+
